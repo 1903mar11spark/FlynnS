@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shane Corp Finance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="tabIcon.png">
+    <link rel="stylesheet" type="text/css" media="screen" href="home.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Shane Corp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="crypto.html">Crypto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="stock.html">Stocks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="GET" target="_blank">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="q">
+                <input class="btn btn-outline-primary my-2 my-sm-0" type="submit" value="Search">
+            </form>
+        </div>
+    </nav>
+    <div class="page-header">
+            <h1 class="text-center"><img src="shaneCorp.png" class="img-fluid" alt="Shane Corp"></h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="containter">
+        <div class="row">
+            <div class="col" id="cryptoNews">
+                <h1 class="text-center text-light">Cryptocurrency News</h1>    
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <div class="image">
+                                <a href="https://cryptonews.com/"><img src="cryptoNews.png" class="img-responsive text-center" alt="Crypto News Logo"></a>
+                                <div class="text-center">
+                                    <p class="text-light">Our Cryptocurrency News feed is a one stop shop destination on all the latest news in crypto. </p>
+                            
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="image">
+                                <a href="https://www.coindesk.com/"><img src="coinDesk.png" class="img-responsive text-center" alt="Coin Desk Logo"></a>
+                                <div class="text-center">
+                                    <p class="text-light">Leader in blockchain news.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            <div class="carousel-item text-center">
+                                <div class="image">
+                                    <a href="https://www.ccn.com/"><img src="ccn.png" class="img-responsive text-center" alt="CCN Logo"></a>
+                                    <div class="text-center">
+                                        <p class="text-light">Get the latest Cryptocurrency News and unique insights of US Markets with breathtaking opinions. We Are Anti-Elite, We Are Anti-Centralization.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col" id="stockNews">
+                <h1 class="text-center text-light">Stock Market News</h1>
+                <div id="stockCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#stockCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#stockCarousel" data-slide-to="1"></li>
+                        <li data-target="#stockCarousel" data-slide-to="2"></li>
+                    </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active text-center">
+                                <div class="image">
+                                    <a href="https://www.marketwatch.com/"><img src="marketWatch.png" class="img-responsive text-center" alt="Crypto News Logo"></a>
+                                    <div class="text-center">
+                                        <p class="text-light">MarketWatch provides the latest stock market, financial and business news. Get stock market quotes, personal finance advice, company news and more.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class="image">
+                                    <a href="https://finance.yahoo.com/"><img src="yahooFinance.png" class="img-responsive text-center" alt="Coin Desk Logo"></a>
+                                    <div class="text-center">
+                                        <p class="text-light">Yahoo finance provides financial news, data and commentary including stock quotes, press releases, financial reports, and original content.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item text-center">
+                                <div class="image">
+                                    <a href="https://www.wsj.com/news/markets"><img src="wsj.svg" class="img-responsive text-center" alt="CCN Logo"></a>
+                                    <div class="text-center">
+                                        <p class="text-light">Follow the latest Wall Street Journal news on stock markets, finance, banks, hedge funds and private equity, with quotes for stocks, stock indexes and ETFs.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#stockCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#stockCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

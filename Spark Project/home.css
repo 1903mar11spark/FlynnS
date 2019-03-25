@@ -1,0 +1,11 @@
+
+.image img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+  }
+  body {
+    background-image: url("https://hdqwalls.com/wallpapers/blue-abstract-simple-background-qs.jpg");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+  }

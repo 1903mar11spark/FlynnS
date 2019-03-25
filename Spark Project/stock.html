@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shane Corp Stocks</title>
+    <link rel="icon" href="tabIcon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="crypto.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap.min.css">
+    <script src="stock.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home.html">Shane Corp</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="crypto.html">Crypto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stock.html">Stocks</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="GET" target="_blank">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="q">
+                    <input class="btn btn-outline-primary my-2 my-sm-0" type="submit" value="Search">
+                  </form>
+                </div>
+              </nav>
+    <div class="container"> 
+            <div class="row">
+                <div class="col" id="search">
+                    <div class="text-center">
+                        <br>
+                        <p class="text-light" id="symbol"></p>
+                        <p class="text-light" id="sector"></p>
+                        <p class="text-light" id="price"></p>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                    <input type="text" id="stockName" style="width: 225px;"/>
+                    <br>
+                    <button type="button" class="btn btn-primary" id="fetchStock">Show me Stock Information</button>
+                    </div>
+                </div>
+    
+                <div class="col" id="tab">
+                    <div class="text-center" id="tabl">
+                        <p class="text-light">Popular Stocks</p>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr class="table-primary">
+                                    <th scope="col">#</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Symbol</th>
+        
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-light">
+                                    <th scope="row">1</th>
+                                        <td>Amazon</td>
+                                        <td>AMZN</td>
+                                        
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">2</th>
+                                        <td>Apple</td>
+                                        <td>AAPL</td>
+                                        
+                                </tr>
+                                <tr class="table-light">
+                                    <th scope="row">3</th>
+                                        <td>Netflix</td>
+                                        <td>NFLX</td>
+                                        
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">4</th>
+                                        <td>Google</td>
+                                        <td>GOOG</td>
+                                            
+                                </tr>
+                                <tr class="table-light">
+                                    <th scope="row">5</th>
+                                        <td>Microsoft</td>
+                                        <td>MSFT</td>
+                                            
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">6</th>
+                                        <td>Bank of America</td>
+                                        <td>BAC</td>
+                                                
+                                </tr>
+                                <tr class="table-light">
+                                    <th scope="row">7</th>
+                                        <td>Alibaba</td>
+                                        <td>BABA</td>
+                                                    
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">8</th>
+                                        <td>Chipotle</td>
+                                        <td>CMG</td>
+                                                    
+                                </tr>
+                                <tr class="table-light">
+                                    <th scope="row">9</th>
+                                        <td>Oracle</td>
+                                        <td>ORCL</td>
+                                                    
+                                </tr>
+                                <tr class="table-secondary">
+                                    <th scope="row">10</th>
+                                        <td>Nike</td>
+                                        <td>NKE</td>
+                                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--<section>
+        <br>
+        <p id="symbol"></p>
+        <p id="sector"></p>
+        <p id="price"></p>
+        <br>
+        <input type="text" id="stockName"/>
+        <br>
+        <button type="button" id="fetchStock"></button>
+    </section>-->
+</body>
+</html>

@@ -1,0 +1,30 @@
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+#search {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+#tab {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+#tabl {
+    background-image: none !important;
+}
+
+body {
+    background-image: url("https://hdqwalls.com/wallpapers/blue-abstract-simple-background-qs.jpg");
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
